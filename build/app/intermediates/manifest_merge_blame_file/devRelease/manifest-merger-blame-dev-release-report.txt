@@ -1,0 +1,1178 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.odlay.eservices.ServicesApp"
+4    android:versionCode="254"
+5    android:versionName="2.5.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:4:5-79
+11-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:5:5-81
+12-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:6:5-79
+13-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:7:5-65
+14-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:7:22-62
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:8:5-77
+15-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:8:22-74
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:9:5-78
+16-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:9:22-76
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:10:5-60
+18-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:10:19-57
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+20-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-64
+21    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+21-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+21-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+22    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+22-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+22-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+23-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+24-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+25    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+25-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+25-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+26    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+26-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+26-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+27-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-77
+28
+29    <queries>
+29-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+30        <intent>
+30-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+31            <action android:name="android.intent.action.GET_CONTENT" />
+31-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+31-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+32
+33            <data android:mimeType="*/*" />
+33-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+33-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+34        </intent>
+35        <!-- Added to check the default browser that will host the AuthFlow. -->
+36        <intent>
+36-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:13:9-17:18
+37            <action android:name="android.intent.action.VIEW" />
+37-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:17-69
+37-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:25-66
+38
+39            <data android:scheme="http" />
+39-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+40        </intent> <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+41        <package android:name="com.android.chrome" />
+41-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:11:9-54
+41-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:11:18-51
+42        <package android:name="com.facebook.katana" /> <!-- Needs to be explicitly declared on Android R+ -->
+42-->[com.facebook.android:facebook-common:16.2.0] /Users/mac/.gradle/caches/transforms-3/a0cc8fa8e4394ad4ea7b2d3ac5a1c9c8/transformed/jetified-facebook-common-16.2.0/AndroidManifest.xml:18:9-55
+42-->[com.facebook.android:facebook-common:16.2.0] /Users/mac/.gradle/caches/transforms-3/a0cc8fa8e4394ad4ea7b2d3ac5a1c9c8/transformed/jetified-facebook-common-16.2.0/AndroidManifest.xml:18:18-52
+43        <package android:name="com.google.android.apps.maps" />
+43-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/2d1bf7aacae010a8d7f69c27a870bccf/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+43-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/2d1bf7aacae010a8d7f69c27a870bccf/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+44    </queries>
+45
+46    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+46-->[com.google.android.libraries.places:places:2.4.0] /Users/mac/.gradle/caches/transforms-3/94d600ae1289ac0d94bafb458807487c/transformed/jetified-places-2.4.0/AndroidManifest.xml:10:5-76
+46-->[com.google.android.libraries.places:places:2.4.0] /Users/mac/.gradle/caches/transforms-3/94d600ae1289ac0d94bafb458807487c/transformed/jetified-places-2.4.0/AndroidManifest.xml:10:22-73
+47    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+47-->[com.google.firebase:firebase-iid:21.1.0] /Users/mac/.gradle/caches/transforms-3/b066020177bb7488ce7fdb8c749ccf0e/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+47-->[com.google.firebase:firebase-iid:21.1.0] /Users/mac/.gradle/caches/transforms-3/b066020177bb7488ce7fdb8c749ccf0e/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+48
+49    <uses-feature
+49-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/2d1bf7aacae010a8d7f69c27a870bccf/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+50        android:glEsVersion="0x00020000"
+50-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/2d1bf7aacae010a8d7f69c27a870bccf/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+51        android:required="true" />
+51-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/2d1bf7aacae010a8d7f69c27a870bccf/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+52
+53    <permission
+53-->[androidx.core:core:1.10.1] /Users/mac/.gradle/caches/transforms-3/b5b23f5b8309ecf852c63705a149b8e3/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+54        android:name="com.odlay.eservices.ServicesApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+54-->[androidx.core:core:1.10.1] /Users/mac/.gradle/caches/transforms-3/b5b23f5b8309ecf852c63705a149b8e3/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+55        android:protectionLevel="signature" />
+55-->[androidx.core:core:1.10.1] /Users/mac/.gradle/caches/transforms-3/b5b23f5b8309ecf852c63705a149b8e3/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+56
+57    <uses-permission android:name="com.odlay.eservices.ServicesApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+57-->[androidx.core:core:1.10.1] /Users/mac/.gradle/caches/transforms-3/b5b23f5b8309ecf852c63705a149b8e3/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+57-->[androidx.core:core:1.10.1] /Users/mac/.gradle/caches/transforms-3/b5b23f5b8309ecf852c63705a149b8e3/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+58    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+58-->[com.android.installreferrer:installreferrer:1.0] /Users/mac/.gradle/caches/transforms-3/408a716c838d84a82c2cdf8aada75ac0/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+58-->[com.android.installreferrer:installreferrer:1.0] /Users/mac/.gradle/caches/transforms-3/408a716c838d84a82c2cdf8aada75ac0/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+59
+60    <application
+61        android:name="android.app.Application"
+61-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:15:9-42
+62        android:allowBackup="false"
+62-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:17:9-36
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.10.1] /Users/mac/.gradle/caches/transforms-3/b5b23f5b8309ecf852c63705a149b8e3/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+64        android:icon="@mipmap/ic_launcher"
+64-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:18:9-43
+65        android:label="Odlay Services"
+65-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:14:9-39
+66        android:networkSecurityConfig="@xml/network_security_config"
+66-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:16:9-69
+67        android:supportsRtl="true" >
+67-->[com.facebook.android:facebook-android-sdk:16.2.0] /Users/mac/.gradle/caches/transforms-3/75b318bd2dded8aa395dd0ef0c29d998/transformed/jetified-facebook-android-sdk-16.2.0/AndroidManifest.xml:16:18-44
+68        <meta-data
+68-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:19:8-106
+69            android:name="com.facebook.sdk.ApplicationId"
+69-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:19:19-64
+70            android:value="@string/facebook_app_id" />
+70-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:19:65-104
+71        <meta-data
+71-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:20:8-110
+72            android:name="com.facebook.sdk.ClientToken"
+72-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:20:19-62
+73            android:value="@string/facebook_client_token" />
+73-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:20:63-108
+74        <meta-data
+74-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:21:8-23:35
+75            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+75-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:22:12-67
+76            android:value="true" />
+76-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:23:12-32
+77        <meta-data
+77-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:24:8-26:35
+78            android:name="com.facebook.sdk.CodelessDebugLogEnabled"
+78-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:25:12-67
+79            android:value="true" />
+79-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:26:12-32
+80
+81        <activity
+81-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:27:9-55:20
+82            android:name="com.odlay.eservices.ServicesApp.MainActivity"
+82-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:28:13-41
+83            android:allowBackup="false"
+83-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:31:13-40
+84            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+84-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:34:13-163
+85            android:exported="true"
+85-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:29:13-36
+86            android:hardwareAccelerated="true"
+86-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:35:13-47
+87            android:largeHeap="true"
+87-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:30:13-37
+88            android:launchMode="singleTop"
+88-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:32:13-43
+89            android:theme="@style/LaunchTheme"
+89-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:33:13-47
+90            android:windowSoftInputMode="adjustResize" >
+90-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:36:13-55
+91
+92            <!--
+93                 Specifies an Android theme to apply to this Activity as soon as
+94                 the Android process has started. This theme is visible to the user
+95                 while the Flutter UI initializes. After that, this theme continues
+96                 to determine the Window background behind the Flutter UI.
+97            -->
+98            <meta-data
+98-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:41:13-44:17
+99                android:name="io.flutter.embedding.android.NormalTheme"
+99-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:42:15-70
+100                android:resource="@style/NormalTheme" />
+100-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:43:15-52
+101
+102            <intent-filter>
+102-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:47:13-50:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:48:17-68
+103-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:48:25-66
+104
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:49:17-76
+105-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:49:27-74
+106            </intent-filter>
+107            <intent-filter>
+107-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:51:13-54:29
+108                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+108-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:52:13-65
+108-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:52:21-62
+109
+110                <category android:name="android.intent.category.DEFAULT" />
+110-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:13-72
+110-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:23-69
+111            </intent-filter>
+112        </activity>
+113
+114        <!--
+115             Don't delete the meta-data below.
+116             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+117        -->
+118        <meta-data
+118-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:59:9-61:33
+119            android:name="flutterEmbedding"
+119-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:60:13-44
+120            android:value="2" />
+120-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:61:13-30
+121        <meta-data
+121-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:62:13-64:63
+122            android:name="com.google.android.geo.API_KEY"
+122-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:63:5-50
+123            android:value="AIzaSyCOPPLBfnEr43Ryb2MzYvBB34XTMiRQZfo" />
+123-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:64:5-60
+124        <meta-data
+124-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:65:5-67:32
+125            android:name="com.google.firebase.messaging.default_notification_channel_id"
+125-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:66:9-85
+126            android:value="Odlo" />
+126-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:67:9-29
+127
+128        <service
+128-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:68:9-75:11
+129            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+129-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:69:5-74
+130            android:directBootAware="true"
+130-->[com.google.firebase:firebase-messaging:23.2.0] /Users/mac/.gradle/caches/transforms-3/1dd3969592516e235630e0b24e23334d/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:46:13-43
+131            android:exported="false" >
+131-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:70:5-29
+132            <intent-filter>
+132-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:71:5-73:21
+133                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+133-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:72:9-70
+133-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:72:17-67
+134            </intent-filter>
+135            <intent-filter android:priority="-500" >
+135-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:71:5-73:21
+136                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+136-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:72:9-70
+136-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:72:17-67
+137            </intent-filter>
+138        </service>
+139
+140        <provider
+140-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:76:8-79:37
+141            android:name="com.facebook.FacebookContentProvider"
+141-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:77:12-63
+142            android:authorities="com.facebook.app.FacebookContentProvider1571800773350547"
+142-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:78:12-90
+143            android:exported="true" />
+143-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:79:12-35
+144
+145        <service
+145-->[:firebase_database] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+146            android:name="com.google.firebase.components.ComponentDiscoveryService"
+146-->[:firebase_database] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+147            android:directBootAware="true"
+147-->[com.google.firebase:firebase-common:20.3.3] /Users/mac/.gradle/caches/transforms-3/86dac9a9c7ffa07c00a1813d8efa5d16/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+148            android:exported="false" >
+148-->[com.google.firebase:firebase-iid:21.1.0] /Users/mac/.gradle/caches/transforms-3/b066020177bb7488ce7fdb8c749ccf0e/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:31:13-37
+149            <meta-data
+149-->[:firebase_database] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+150                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+150-->[:firebase_database] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-127
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[:firebase_database] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+152            <meta-data
+152-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+153                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+153-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+155            <meta-data
+155-->[:firebase_app_check] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_app_check/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+156                android:name="com.google.firebase.components:io.flutter.plugins.firebase.appcheck.FlutterFirebaseAppRegistrar"
+156-->[:firebase_app_check] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_app_check/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-127
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[:firebase_app_check] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_app_check/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+158            <meta-data
+158-->[:firebase_crashlytics] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+159                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+159-->[:firebase_crashlytics] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-130
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[:firebase_crashlytics] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+161            <meta-data
+161-->[:firebase_auth] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+162                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+162-->[:firebase_auth] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[:firebase_auth] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+164            <meta-data
+164-->[:firebase_core] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+165                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+165-->[:firebase_core] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[:firebase_core] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-iid:21.1.0] /Users/mac/.gradle/caches/transforms-3/b066020177bb7488ce7fdb8c749ccf0e/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+168                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+168-->[com.google.firebase:firebase-iid:21.1.0] /Users/mac/.gradle/caches/transforms-3/b066020177bb7488ce7fdb8c749ccf0e/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-iid:21.1.0] /Users/mac/.gradle/caches/transforms-3/b066020177bb7488ce7fdb8c749ccf0e/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-appcheck-safetynet:16.1.0] /Users/mac/.gradle/caches/transforms-3/00213088764fb01b7d87293f19749baa/transformed/jetified-firebase-appcheck-safetynet-16.1.0/AndroidManifest.xml:27:13-29:85
+171                android:name="com.google.firebase.components:com.google.firebase.appcheck.safetynet.FirebaseAppCheckSafetyNetRegistrar"
+171-->[com.google.firebase:firebase-appcheck-safetynet:16.1.0] /Users/mac/.gradle/caches/transforms-3/00213088764fb01b7d87293f19749baa/transformed/jetified-firebase-appcheck-safetynet-16.1.0/AndroidManifest.xml:28:17-136
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-appcheck-safetynet:16.1.0] /Users/mac/.gradle/caches/transforms-3/00213088764fb01b7d87293f19749baa/transformed/jetified-firebase-appcheck-safetynet-16.1.0/AndroidManifest.xml:29:17-82
+173            <meta-data
+173-->[com.google.firebase:firebase-appcheck-debug:17.0.1] /Users/mac/.gradle/caches/transforms-3/ee9c54f087bfb52e51b257d4f41efee0/transformed/jetified-firebase-appcheck-debug-17.0.1/AndroidManifest.xml:27:13-29:85
+174                android:name="com.google.firebase.components:com.google.firebase.appcheck.debug.FirebaseAppCheckDebugRegistrar"
+174-->[com.google.firebase:firebase-appcheck-debug:17.0.1] /Users/mac/.gradle/caches/transforms-3/ee9c54f087bfb52e51b257d4f41efee0/transformed/jetified-firebase-appcheck-debug-17.0.1/AndroidManifest.xml:28:17-128
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.firebase:firebase-appcheck-debug:17.0.1] /Users/mac/.gradle/caches/transforms-3/ee9c54f087bfb52e51b257d4f41efee0/transformed/jetified-firebase-appcheck-debug-17.0.1/AndroidManifest.xml:29:17-82
+176            <meta-data
+176-->[com.google.firebase:firebase-appcheck-playintegrity:17.0.1] /Users/mac/.gradle/caches/transforms-3/49f20aa36431b8f85a083230c5b26d16/transformed/jetified-firebase-appcheck-playintegrity-17.0.1/AndroidManifest.xml:27:13-29:85
+177                android:name="com.google.firebase.components:com.google.firebase.appcheck.playintegrity.FirebaseAppCheckPlayIntegrityRegistrar"
+177-->[com.google.firebase:firebase-appcheck-playintegrity:17.0.1] /Users/mac/.gradle/caches/transforms-3/49f20aa36431b8f85a083230c5b26d16/transformed/jetified-firebase-appcheck-playintegrity-17.0.1/AndroidManifest.xml:28:17-144
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-appcheck-playintegrity:17.0.1] /Users/mac/.gradle/caches/transforms-3/49f20aa36431b8f85a083230c5b26d16/transformed/jetified-firebase-appcheck-playintegrity-17.0.1/AndroidManifest.xml:29:17-82
+179            <meta-data
+179-->[com.google.firebase:firebase-messaging:23.2.0] /Users/mac/.gradle/caches/transforms-3/1dd3969592516e235630e0b24e23334d/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:55:13-57:85
+180                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+180-->[com.google.firebase:firebase-messaging:23.2.0] /Users/mac/.gradle/caches/transforms-3/1dd3969592516e235630e0b24e23334d/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:56:17-119
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.firebase:firebase-messaging:23.2.0] /Users/mac/.gradle/caches/transforms-3/1dd3969592516e235630e0b24e23334d/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:57:17-82
+182            <meta-data
+182-->[com.google.firebase:firebase-database:20.2.2] /Users/mac/.gradle/caches/transforms-3/6cc0dcfb45e5d5efa65918b32a772b63/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
+183                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+183-->[com.google.firebase:firebase-database:20.2.2] /Users/mac/.gradle/caches/transforms-3/6cc0dcfb45e5d5efa65918b32a772b63/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:32:17-109
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.firebase:firebase-database:20.2.2] /Users/mac/.gradle/caches/transforms-3/6cc0dcfb45e5d5efa65918b32a772b63/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:33:17-82
+185            <meta-data
+185-->[com.google.firebase:firebase-appcheck:17.0.1] /Users/mac/.gradle/caches/transforms-3/7dcd6d01c3c76cb2f894651d628760ce/transformed/jetified-firebase-appcheck-17.0.1/AndroidManifest.xml:27:13-29:85
+186                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+186-->[com.google.firebase:firebase-appcheck:17.0.1] /Users/mac/.gradle/caches/transforms-3/7dcd6d01c3c76cb2f894651d628760ce/transformed/jetified-firebase-appcheck-17.0.1/AndroidManifest.xml:28:17-117
+187                android:value="com.google.firebase.components.ComponentRegistrar" />
+187-->[com.google.firebase:firebase-appcheck:17.0.1] /Users/mac/.gradle/caches/transforms-3/7dcd6d01c3c76cb2f894651d628760ce/transformed/jetified-firebase-appcheck-17.0.1/AndroidManifest.xml:29:17-82
+188            <meta-data
+188-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
+189                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+189-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:70:17-109
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:71:17-82
+191            <meta-data
+191-->[com.google.firebase:firebase-crashlytics:18.4.0] /Users/mac/.gradle/caches/transforms-3/380a9f51bd8d134e78cc3669669dbce6/transformed/jetified-firebase-crashlytics-18.4.0/AndroidManifest.xml:17:13-19:85
+192                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+192-->[com.google.firebase:firebase-crashlytics:18.4.0] /Users/mac/.gradle/caches/transforms-3/380a9f51bd8d134e78cc3669669dbce6/transformed/jetified-firebase-crashlytics-18.4.0/AndroidManifest.xml:18:17-115
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->[com.google.firebase:firebase-crashlytics:18.4.0] /Users/mac/.gradle/caches/transforms-3/380a9f51bd8d134e78cc3669669dbce6/transformed/jetified-firebase-crashlytics-18.4.0/AndroidManifest.xml:19:17-82
+194            <meta-data
+194-->[com.google.firebase:firebase-sessions:1.0.0] /Users/mac/.gradle/caches/transforms-3/c6d51570238e151ce13a08571e7a14b0/transformed/jetified-firebase-sessions-1.0.0/AndroidManifest.xml:27:13-29:85
+195                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+195-->[com.google.firebase:firebase-sessions:1.0.0] /Users/mac/.gradle/caches/transforms-3/c6d51570238e151ce13a08571e7a14b0/transformed/jetified-firebase-sessions-1.0.0/AndroidManifest.xml:28:17-117
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->[com.google.firebase:firebase-sessions:1.0.0] /Users/mac/.gradle/caches/transforms-3/c6d51570238e151ce13a08571e7a14b0/transformed/jetified-firebase-sessions-1.0.0/AndroidManifest.xml:29:17-82
+197            <meta-data
+197-->[com.google.firebase:firebase-installations:17.1.3] /Users/mac/.gradle/caches/transforms-3/e67e271513667fb981e32b5b355ba33e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+198                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+198-->[com.google.firebase:firebase-installations:17.1.3] /Users/mac/.gradle/caches/transforms-3/e67e271513667fb981e32b5b355ba33e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+199                android:value="com.google.firebase.components.ComponentRegistrar" />
+199-->[com.google.firebase:firebase-installations:17.1.3] /Users/mac/.gradle/caches/transforms-3/e67e271513667fb981e32b5b355ba33e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+200            <meta-data
+200-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/mac/.gradle/caches/transforms-3/42a058beead1d896e91f9894957ac013/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
+201                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+201-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/mac/.gradle/caches/transforms-3/42a058beead1d896e91f9894957ac013/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+202                android:value="com.google.firebase.components.ComponentRegistrar" />
+202-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/mac/.gradle/caches/transforms-3/42a058beead1d896e91f9894957ac013/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+203            <meta-data
+203-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/mac/.gradle/caches/transforms-3/f354e1b1553a8e8b0c39ed45a5237a89/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:14:13-16:85
+204                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+204-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/mac/.gradle/caches/transforms-3/f354e1b1553a8e8b0c39ed45a5237a89/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:15:17-113
+205                android:value="com.google.firebase.components.ComponentRegistrar" />
+205-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/mac/.gradle/caches/transforms-3/f354e1b1553a8e8b0c39ed45a5237a89/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:16:17-82
+206        </service>
+207        <service
+207-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+208            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+208-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+209            android:exported="false"
+209-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+210            android:permission="android.permission.BIND_JOB_SERVICE" />
+210-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+211        <service
+211-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+212            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+212-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+213            android:exported="false" >
+213-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+214            <intent-filter>
+214-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:71:5-73:21
+215                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+215-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:72:9-70
+215-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:72:17-67
+216            </intent-filter>
+217        </service>
+218
+219        <receiver
+219-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+220            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+220-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+221            android:exported="true"
+221-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+222            android:permission="com.google.android.c2dm.permission.SEND" >
+222-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+223            <intent-filter>
+223-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+224                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+224-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+224-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+225            </intent-filter>
+226        </receiver>
+227
+228        <provider
+228-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+229            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+229-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+230            android:authorities="com.odlay.eservices.ServicesApp.flutterfirebasemessaginginitprovider"
+230-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+231            android:exported="false"
+231-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+232            android:initOrder="99" />
+232-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+233
+234        <service
+234-->[:geolocator_android] /Users/mac/Documents/odlayService237/odlay_services/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+235            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+235-->[:geolocator_android] /Users/mac/Documents/odlayService237/odlay_services/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+236            android:enabled="true"
+236-->[:geolocator_android] /Users/mac/Documents/odlayService237/odlay_services/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+237            android:exported="false"
+237-->[:geolocator_android] /Users/mac/Documents/odlayService237/odlay_services/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+238            android:foregroundServiceType="location" />
+238-->[:geolocator_android] /Users/mac/Documents/odlayService237/odlay_services/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+239
+240        <receiver
+240-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+241            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+241-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+242            android:exported="false" />
+242-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+243        <receiver
+243-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+244            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+244-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+245            android:exported="false" />
+245-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+246        <receiver
+246-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+247            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+247-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+248            android:exported="false" >
+248-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+249            <intent-filter>
+249-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+250                <action android:name="android.intent.action.BOOT_COMPLETED" />
+250-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+250-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+251                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+251-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+251-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+252                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+252-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+252-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+253                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+253-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+253-->[:flutter_local_notifications] /Users/mac/Documents/odlayService237/odlay_services/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+254            </intent-filter>
+255        </receiver>
+256
+257        <provider
+257-->[:image_picker_android] /Users/mac/Documents/odlayService237/odlay_services/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+258            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+258-->[:image_picker_android] /Users/mac/Documents/odlayService237/odlay_services/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+259            android:authorities="com.odlay.eservices.ServicesApp.flutter.image_provider"
+259-->[:image_picker_android] /Users/mac/Documents/odlayService237/odlay_services/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+260            android:exported="false"
+260-->[:image_picker_android] /Users/mac/Documents/odlayService237/odlay_services/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+261            android:grantUriPermissions="true" >
+261-->[:image_picker_android] /Users/mac/Documents/odlayService237/odlay_services/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+262            <meta-data
+262-->[:image_picker_android] /Users/mac/Documents/odlayService237/odlay_services/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+263                android:name="android.support.FILE_PROVIDER_PATHS"
+263-->[:image_picker_android] /Users/mac/Documents/odlayService237/odlay_services/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+264                android:resource="@xml/flutter_image_picker_file_paths" />
+264-->[:image_picker_android] /Users/mac/Documents/odlayService237/odlay_services/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+265        </provider>
+266
+267        <activity
+267-->[:url_launcher_android] /Users/mac/Documents/odlayService237/odlay_services/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+268            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+268-->[:url_launcher_android] /Users/mac/Documents/odlayService237/odlay_services/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+269            android:exported="false"
+269-->[:url_launcher_android] /Users/mac/Documents/odlayService237/odlay_services/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+270            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+270-->[:url_launcher_android] /Users/mac/Documents/odlayService237/odlay_services/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+271
+272        <service
+272-->[:location] /Users/mac/Documents/odlayService237/odlay_services/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-17:56
+273            android:name="com.lyokone.location.FlutterLocationService"
+273-->[:location] /Users/mac/Documents/odlayService237/odlay_services/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-71
+274            android:enabled="true"
+274-->[:location] /Users/mac/Documents/odlayService237/odlay_services/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-35
+275            android:exported="false"
+275-->[:location] /Users/mac/Documents/odlayService237/odlay_services/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+276            android:foregroundServiceType="location" />
+276-->[:location] /Users/mac/Documents/odlayService237/odlay_services/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-53
+277
+278        <activity
+278-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:8:9-12:58
+279            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+279-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:9:13-80
+280            android:exported="false"
+280-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:10:13-37
+281            android:theme="@style/StripePaymentSheetDefaultTheme"
+281-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:11:13-66
+282            android:windowSoftInputMode="adjustResize" />
+282-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:12:13-55
+283        <activity
+283-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:13:9-17:58
+284            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+284-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:14:13-82
+285            android:exported="false"
+285-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:15:13-37
+286            android:theme="@style/StripePaymentSheetDefaultTheme"
+286-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:16:13-66
+287            android:windowSoftInputMode="adjustResize" />
+287-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:17:13-55
+288        <activity
+288-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:18:9-22:58
+289            android:name="com.stripe.android.customersheet.CustomerSheetActivity"
+289-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:19:13-82
+290            android:exported="false"
+290-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:20:13-37
+291            android:theme="@style/StripePaymentSheetDefaultTheme"
+291-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:21:13-66
+292            android:windowSoftInputMode="adjustResize" />
+292-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:22:13-55
+293        <activity
+293-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:23:9-26:69
+294            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+294-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:24:13-97
+295            android:exported="false"
+295-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:25:13-37
+296            android:theme="@style/StripePaymentSheetDefaultTheme" />
+296-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:26:13-66
+297        <activity
+297-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:27:9-30:69
+298            android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity"
+298-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:28:13-105
+299            android:exported="false"
+299-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:29:13-37
+300            android:theme="@style/StripePaymentSheetDefaultTheme" />
+300-->[com.stripe:paymentsheet:20.25.8] /Users/mac/.gradle/caches/transforms-3/90c1c9b19d4fd389de54ff3c87a53e16/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:30:13-66
+301        <activity
+301-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:8:9-13:61
+302            android:name="com.stripe.android.link.LinkForegroundActivity"
+302-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:9:13-74
+303            android:autoRemoveFromRecents="true"
+303-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:10:13-49
+304            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"
+304-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:11:13-115
+305            android:launchMode="singleTop"
+305-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:12:13-43
+306            android:theme="@style/StripeTransparentTheme" />
+306-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:13:13-58
+307        <activity
+307-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:14:9-31:20
+308            android:name="com.stripe.android.link.LinkRedirectHandlerActivity"
+308-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:15:13-79
+309            android:autoRemoveFromRecents="true"
+309-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:16:13-49
+310            android:exported="true"
+310-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:17:13-36
+311            android:launchMode="singleInstance"
+311-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:18:13-48
+312            android:theme="@style/StripeTransparentTheme" >
+312-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:19:13-58
+313            <intent-filter>
+313-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:20:13-30:29
+314                <action android:name="android.intent.action.VIEW" />
+314-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:17-69
+314-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:25-66
+315
+316                <category android:name="android.intent.category.DEFAULT" />
+316-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:13-72
+316-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:23-69
+317                <category android:name="android.intent.category.BROWSABLE" />
+317-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:17-78
+317-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:27-75
+318
+319                <data
+319-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+320                    android:host="complete"
+321                    android:path="/com.odlay.eservices.ServicesApp"
+322                    android:scheme="link-popup" />
+323            </intent-filter>
+324        </activity>
+325        <activity
+325-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:21:9-64:20
+326            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+326-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:22:13-109
+327            android:exported="true" >
+327-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:23:13-36
+328            <intent-filter>
+328-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:24:13-63:29
+329                <action android:name="android.intent.action.VIEW" />
+329-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:17-69
+329-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:25-66
+330
+331                <category android:name="android.intent.category.DEFAULT" />
+331-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:13-72
+331-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:23-69
+332                <category android:name="android.intent.category.BROWSABLE" />
+332-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:17-78
+332-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:27-75
+333
+334                <!-- Returning from app2app: return_url is triggered to reopen web AuthFlow and poll accounts. -->
+335                <data
+335-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+336                    android:host="link-accounts"
+337                    android:pathPrefix="/com.odlay.eservices.ServicesApp/authentication_return"
+338                    android:scheme="stripe-auth" />
+339
+340                <!-- Returning from app2app: return_url is triggered to reopen native AuthFlow and poll accounts. -->
+341                <data
+341-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+342                    android:host="link-native-accounts"
+343                    android:pathPrefix="/com.odlay.eservices.ServicesApp/authentication_return"
+344                    android:scheme="stripe-auth" />
+345
+346                <!-- End of web AuthFlow success and cancel URIs that begin with "stripe-auth://link-accounts/{app-id}/...” -->
+347                <data
+347-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+348                    android:host="link-accounts"
+349                    android:path="/com.odlay.eservices.ServicesApp/success"
+350                    android:scheme="stripe-auth" />
+351                <data
+351-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+352                    android:host="link-accounts"
+353                    android:path="/com.odlay.eservices.ServicesApp/cancel"
+354                    android:scheme="stripe-auth" />
+355
+356                <!-- Opening app2app: Web flow triggers stripe-auth://native-redirect/{app-id}/http://web-that-redirects-to-native -->
+357                <data
+357-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+358                    android:host="native-redirect"
+359                    android:pathPrefix="/com.odlay.eservices.ServicesApp"
+360                    android:scheme="stripe-auth" />
+361
+362                <!-- Accepts success/cancel/fail URIs that begin with "stripe://auth-redirect” -->
+363                <data
+363-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+364                    android:host="auth-redirect"
+365                    android:pathPrefix="/com.odlay.eservices.ServicesApp"
+366                    android:scheme="stripe" />
+367            </intent-filter>
+368        </activity>
+369        <activity
+369-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:65:9-68:57
+370            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+370-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:66:13-101
+371            android:exported="false"
+371-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:67:13-37
+372            android:theme="@style/StripeDefaultTheme" />
+372-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:68:13-54
+373        <activity
+373-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:69:9-73:58
+374            android:name="com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity"
+374-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:70:13-110
+375            android:exported="false"
+375-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:71:13-37
+376            android:theme="@style/StripeDefaultTheme"
+376-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:72:13-54
+377            android:windowSoftInputMode="adjustResize" />
+377-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:73:13-55
+378
+379        <provider
+379-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:75:9-79:43
+380            android:name="com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer"
+380-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:76:13-114
+381            android:authorities="com.odlay.eservices.ServicesApp.financialconnections-init"
+381-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:77:13-77
+382            android:exported="false"
+382-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:78:13-37
+383            android:multiprocess="true" />
+383-->[com.stripe:financial-connections:20.25.8] /Users/mac/.gradle/caches/transforms-3/c3618eb62faf869ec179bd71953830e2/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:79:13-40
+384
+385        <activity
+385-->[com.stripe:payments-ui-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/754330262d08363c820a2d6b976d8129/transformed/jetified-payments-ui-core-20.25.8/AndroidManifest.xml:8:9-11:69
+386            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+386-->[com.stripe:payments-ui-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/754330262d08363c820a2d6b976d8129/transformed/jetified-payments-ui-core-20.25.8/AndroidManifest.xml:9:13-80
+387            android:exported="false"
+387-->[com.stripe:payments-ui-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/754330262d08363c820a2d6b976d8129/transformed/jetified-payments-ui-core-20.25.8/AndroidManifest.xml:10:13-37
+388            android:theme="@style/StripePaymentSheetDefaultTheme" />
+388-->[com.stripe:payments-ui-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/754330262d08363c820a2d6b976d8129/transformed/jetified-payments-ui-core-20.25.8/AndroidManifest.xml:11:13-66
+389        <activity
+389-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:15:9-18:57
+390            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+390-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:16:13-76
+391            android:exported="false"
+391-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:17:13-37
+392            android:theme="@style/StripeDefaultTheme" />
+392-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:18:13-54
+393        <activity
+393-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:19:9-22:57
+394            android:name="com.stripe.android.view.PaymentMethodsActivity"
+394-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:20:13-74
+395            android:exported="false"
+395-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:21:13-37
+396            android:theme="@style/StripeDefaultTheme" />
+396-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:22:13-54
+397        <activity
+397-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:23:9-26:57
+398            android:name="com.stripe.android.view.PaymentFlowActivity"
+398-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:24:13-71
+399            android:exported="false"
+399-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:25:13-37
+400            android:theme="@style/StripeDefaultTheme" />
+400-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:26:13-54
+401        <activity
+401-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:27:9-31:58
+402            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+402-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:28:13-78
+403            android:exported="false"
+403-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:29:13-37
+404            android:theme="@style/StripeDefaultTheme"
+404-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:30:13-54
+405            android:windowSoftInputMode="adjustResize" />
+405-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:31:13-55
+406        <activity
+406-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:32:9-35:61
+407            android:name="com.stripe.android.view.PaymentRelayActivity"
+407-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:33:13-72
+408            android:exported="false"
+408-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:34:13-37
+409            android:theme="@style/StripeTransparentTheme" />
+409-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:35:13-58
+410        <!--
+411        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+412        launched the browser Activity will also handle the return URL deep link.
+413        -->
+414        <activity
+414-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:41:9-45:61
+415            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+415-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:42:13-85
+416            android:exported="false"
+416-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:43:13-37
+417            android:launchMode="singleTask"
+417-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:44:13-44
+418            android:theme="@style/StripeTransparentTheme" />
+418-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:45:13-58
+419        <activity
+419-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:46:9-63:20
+420            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+420-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:47:13-88
+421            android:exported="true"
+421-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:48:13-36
+422            android:launchMode="singleTask"
+422-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:49:13-44
+423            android:theme="@style/StripeTransparentTheme" >
+423-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:50:13-58
+424            <intent-filter>
+424-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:51:13-62:29
+425                <action android:name="android.intent.action.VIEW" />
+425-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:17-69
+425-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:25-66
+426
+427                <category android:name="android.intent.category.DEFAULT" />
+427-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:13-72
+427-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:23-69
+428                <category android:name="android.intent.category.BROWSABLE" />
+428-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:17-78
+428-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:27-75
+429
+430                <!-- Must match `DefaultReturnUrl#value`. -->
+431                <data
+431-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+432                    android:host="payment_return_url"
+433                    android:path="/com.odlay.eservices.ServicesApp"
+434                    android:scheme="stripesdk" />
+435            </intent-filter>
+436        </activity>
+437        <activity
+437-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:64:9-67:57
+438            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+438-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:65:13-114
+439            android:exported="false"
+439-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:66:13-37
+440            android:theme="@style/StripeDefaultTheme" />
+440-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:67:13-54
+441        <activity
+441-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:68:9-71:66
+442            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+442-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:69:13-90
+443            android:exported="false"
+443-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:70:13-37
+444            android:theme="@style/StripeGooglePayDefaultTheme" />
+444-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:71:13-63
+445        <activity
+445-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:72:9-75:66
+446            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+446-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:73:13-103
+447            android:exported="false"
+447-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:74:13-37
+448            android:theme="@style/StripeGooglePayDefaultTheme" />
+448-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:75:13-63
+449        <activity
+449-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:76:9-79:68
+450            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+450-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:77:13-107
+451            android:exported="false"
+451-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:78:13-37
+452            android:theme="@style/StripePayLauncherDefaultTheme" />
+452-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:79:13-65
+453        <activity
+453-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:80:9-83:61
+454            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+454-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:81:13-97
+455            android:exported="false"
+455-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:82:13-37
+456            android:theme="@style/StripeTransparentTheme" />
+456-->[com.stripe:payments-core:20.25.8] /Users/mac/.gradle/caches/transforms-3/2b7e1f5fd93c63a1c26ffeb60feb5297/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:83:13-58
+457        <activity
+457-->[com.facebook.android:facebook-common:16.2.0] /Users/mac/.gradle/caches/transforms-3/a0cc8fa8e4394ad4ea7b2d3ac5a1c9c8/transformed/jetified-facebook-common-16.2.0/AndroidManifest.xml:22:9-25:66
+458            android:name="com.facebook.FacebookActivity"
+458-->[com.facebook.android:facebook-common:16.2.0] /Users/mac/.gradle/caches/transforms-3/a0cc8fa8e4394ad4ea7b2d3ac5a1c9c8/transformed/jetified-facebook-common-16.2.0/AndroidManifest.xml:23:13-57
+459            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+459-->[com.facebook.android:facebook-common:16.2.0] /Users/mac/.gradle/caches/transforms-3/a0cc8fa8e4394ad4ea7b2d3ac5a1c9c8/transformed/jetified-facebook-common-16.2.0/AndroidManifest.xml:24:13-96
+460            android:theme="@style/com_facebook_activity_theme" />
+460-->[com.facebook.android:facebook-common:16.2.0] /Users/mac/.gradle/caches/transforms-3/a0cc8fa8e4394ad4ea7b2d3ac5a1c9c8/transformed/jetified-facebook-common-16.2.0/AndroidManifest.xml:25:13-63
+461        <activity android:name="com.facebook.CustomTabMainActivity" />
+461-->[com.facebook.android:facebook-common:16.2.0] /Users/mac/.gradle/caches/transforms-3/a0cc8fa8e4394ad4ea7b2d3ac5a1c9c8/transformed/jetified-facebook-common-16.2.0/AndroidManifest.xml:26:9-71
+461-->[com.facebook.android:facebook-common:16.2.0] /Users/mac/.gradle/caches/transforms-3/a0cc8fa8e4394ad4ea7b2d3ac5a1c9c8/transformed/jetified-facebook-common-16.2.0/AndroidManifest.xml:26:19-68
+462        <activity
+462-->[com.facebook.android:facebook-common:16.2.0] /Users/mac/.gradle/caches/transforms-3/a0cc8fa8e4394ad4ea7b2d3ac5a1c9c8/transformed/jetified-facebook-common-16.2.0/AndroidManifest.xml:27:9-41:20
+463            android:name="com.facebook.CustomTabActivity"
+463-->[com.facebook.android:facebook-common:16.2.0] /Users/mac/.gradle/caches/transforms-3/a0cc8fa8e4394ad4ea7b2d3ac5a1c9c8/transformed/jetified-facebook-common-16.2.0/AndroidManifest.xml:28:13-58
+464            android:exported="true" >
+464-->[com.facebook.android:facebook-common:16.2.0] /Users/mac/.gradle/caches/transforms-3/a0cc8fa8e4394ad4ea7b2d3ac5a1c9c8/transformed/jetified-facebook-common-16.2.0/AndroidManifest.xml:29:13-36
+465            <intent-filter>
+465-->[com.facebook.android:facebook-common:16.2.0] /Users/mac/.gradle/caches/transforms-3/a0cc8fa8e4394ad4ea7b2d3ac5a1c9c8/transformed/jetified-facebook-common-16.2.0/AndroidManifest.xml:31:13-40:29
+466                <action android:name="android.intent.action.VIEW" />
+466-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:17-69
+466-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:25-66
+467
+468                <category android:name="android.intent.category.DEFAULT" />
+468-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:13-72
+468-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:23-69
+469                <category android:name="android.intent.category.BROWSABLE" />
+469-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:17-78
+469-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:27-75
+470
+471                <data
+471-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+472                    android:host="cct.com.odlay.eservices.ServicesApp"
+473                    android:scheme="fbconnect" />
+474            </intent-filter>
+475        </activity>
+476        <activity
+476-->[com.google.android.libraries.places:places:2.4.0] /Users/mac/.gradle/caches/transforms-3/94d600ae1289ac0d94bafb458807487c/transformed/jetified-places-2.4.0/AndroidManifest.xml:14:9-20:20
+477            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+477-->[com.google.android.libraries.places:places:2.4.0] /Users/mac/.gradle/caches/transforms-3/94d600ae1289ac0d94bafb458807487c/transformed/jetified-places-2.4.0/AndroidManifest.xml:15:13-91
+478            android:exported="false"
+478-->[com.google.android.libraries.places:places:2.4.0] /Users/mac/.gradle/caches/transforms-3/94d600ae1289ac0d94bafb458807487c/transformed/jetified-places-2.4.0/AndroidManifest.xml:16:13-37
+479            android:label="@string/places_autocomplete_label"
+479-->[com.google.android.libraries.places:places:2.4.0] /Users/mac/.gradle/caches/transforms-3/94d600ae1289ac0d94bafb458807487c/transformed/jetified-places-2.4.0/AndroidManifest.xml:17:13-62
+480            android:theme="@style/PlacesAutocompleteOverlay"
+480-->[com.google.android.libraries.places:places:2.4.0] /Users/mac/.gradle/caches/transforms-3/94d600ae1289ac0d94bafb458807487c/transformed/jetified-places-2.4.0/AndroidManifest.xml:18:13-61
+481            android:windowSoftInputMode="adjustResize" >
+481-->[com.google.android.libraries.places:places:2.4.0] /Users/mac/.gradle/caches/transforms-3/94d600ae1289ac0d94bafb458807487c/transformed/jetified-places-2.4.0/AndroidManifest.xml:19:13-55
+482        </activity>
+483        <activity
+483-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/mac/.gradle/caches/transforms-3/53dcc88ea1d27daefd850347dfe1f580/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:8:9-11:54
+484            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+484-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/mac/.gradle/caches/transforms-3/53dcc88ea1d27daefd850347dfe1f580/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:9:13-81
+485            android:exported="false"
+485-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/mac/.gradle/caches/transforms-3/53dcc88ea1d27daefd850347dfe1f580/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:10:13-37
+486            android:theme="@style/Stripe3DS2Theme" /> <!-- Needs to be explicitly declared on P+ -->
+486-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/mac/.gradle/caches/transforms-3/53dcc88ea1d27daefd850347dfe1f580/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:11:13-51
+487        <uses-library
+487-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/2d1bf7aacae010a8d7f69c27a870bccf/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+488            android:name="org.apache.http.legacy"
+488-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/2d1bf7aacae010a8d7f69c27a870bccf/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+489            android:required="false" />
+489-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/2d1bf7aacae010a8d7f69c27a870bccf/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+490
+491        <receiver
+491-->[com.google.firebase:firebase-messaging:23.2.0] /Users/mac/.gradle/caches/transforms-3/1dd3969592516e235630e0b24e23334d/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:31:9-38:20
+492            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+492-->[com.google.firebase:firebase-messaging:23.2.0] /Users/mac/.gradle/caches/transforms-3/1dd3969592516e235630e0b24e23334d/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:32:13-78
+493            android:exported="true"
+493-->[com.google.firebase:firebase-messaging:23.2.0] /Users/mac/.gradle/caches/transforms-3/1dd3969592516e235630e0b24e23334d/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:33:13-36
+494            android:permission="com.google.android.c2dm.permission.SEND" >
+494-->[com.google.firebase:firebase-messaging:23.2.0] /Users/mac/.gradle/caches/transforms-3/1dd3969592516e235630e0b24e23334d/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:34:13-73
+495            <intent-filter>
+495-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+496                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+496-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+496-->[:firebase_messaging] /Users/mac/Documents/odlayService237/odlay_services/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+497            </intent-filter>
+498        </receiver>
+499
+500        <activity
+500-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:29:9-46:20
+501            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+501-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:30:13-80
+502            android:excludeFromRecents="true"
+502-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:31:13-46
+503            android:exported="true"
+503-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:32:13-36
+504            android:launchMode="singleTask"
+504-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:33:13-44
+505            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+505-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:34:13-72
+506            <intent-filter>
+506-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:35:13-45:29
+507                <action android:name="android.intent.action.VIEW" />
+507-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:17-69
+507-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:25-66
+508
+509                <category android:name="android.intent.category.DEFAULT" />
+509-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:13-72
+509-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:23-69
+510                <category android:name="android.intent.category.BROWSABLE" />
+510-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:17-78
+510-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:27-75
+511
+512                <data
+512-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+513                    android:host="firebase.auth"
+514                    android:path="/"
+515                    android:scheme="genericidp" />
+516            </intent-filter>
+517        </activity>
+518        <activity
+518-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:47:9-64:20
+519            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+519-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:48:13-79
+520            android:excludeFromRecents="true"
+520-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:49:13-46
+521            android:exported="true"
+521-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:50:13-36
+522            android:launchMode="singleTask"
+522-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:51:13-44
+523            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+523-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:52:13-72
+524            <intent-filter>
+524-->[com.google.firebase:firebase-auth:22.1.0] /Users/mac/.gradle/caches/transforms-3/807c6c37357d4d1d84ee5306bfb49bc2/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:53:13-63:29
+525                <action android:name="android.intent.action.VIEW" />
+525-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:17-69
+525-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:25-66
+526
+527                <category android:name="android.intent.category.DEFAULT" />
+527-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:13-72
+527-->/Users/mac/Documents/odlayService237/odlay_services/android/app/src/main/AndroidManifest.xml:53:23-69
+528                <category android:name="android.intent.category.BROWSABLE" />
+528-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:17-78
+528-->[com.stripe:link:20.25.8] /Users/mac/.gradle/caches/transforms-3/9ed731983c9042dfbb54455742452226/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:27-75
+529
+530                <data
+530-->[:file_picker] /Users/mac/Documents/odlayService237/odlay_services/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+531                    android:host="firebase.auth"
+532                    android:path="/"
+533                    android:scheme="recaptcha" />
+534            </intent-filter>
+535        </activity>
+536        <activity
+536-->[com.google.android.gms:play-services-base:18.1.0] /Users/mac/.gradle/caches/transforms-3/bdf49fd55d7dd281551b9ed03551c1a3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+537            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+537-->[com.google.android.gms:play-services-base:18.1.0] /Users/mac/.gradle/caches/transforms-3/bdf49fd55d7dd281551b9ed03551c1a3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+538            android:exported="false"
+538-->[com.google.android.gms:play-services-base:18.1.0] /Users/mac/.gradle/caches/transforms-3/bdf49fd55d7dd281551b9ed03551c1a3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+539            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+539-->[com.google.android.gms:play-services-base:18.1.0] /Users/mac/.gradle/caches/transforms-3/bdf49fd55d7dd281551b9ed03551c1a3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+540
+541        <provider
+541-->[com.google.firebase:firebase-common:20.3.3] /Users/mac/.gradle/caches/transforms-3/86dac9a9c7ffa07c00a1813d8efa5d16/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+542            android:name="com.google.firebase.provider.FirebaseInitProvider"
+542-->[com.google.firebase:firebase-common:20.3.3] /Users/mac/.gradle/caches/transforms-3/86dac9a9c7ffa07c00a1813d8efa5d16/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+543            android:authorities="com.odlay.eservices.ServicesApp.firebaseinitprovider"
+543-->[com.google.firebase:firebase-common:20.3.3] /Users/mac/.gradle/caches/transforms-3/86dac9a9c7ffa07c00a1813d8efa5d16/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+544            android:directBootAware="true"
+544-->[com.google.firebase:firebase-common:20.3.3] /Users/mac/.gradle/caches/transforms-3/86dac9a9c7ffa07c00a1813d8efa5d16/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+545            android:exported="false"
+545-->[com.google.firebase:firebase-common:20.3.3] /Users/mac/.gradle/caches/transforms-3/86dac9a9c7ffa07c00a1813d8efa5d16/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+546            android:initOrder="100" />
+546-->[com.google.firebase:firebase-common:20.3.3] /Users/mac/.gradle/caches/transforms-3/86dac9a9c7ffa07c00a1813d8efa5d16/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+547        <!--
+548         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+549         with the application context. This config is merged in with the host app's manifest,
+550         but there can only be one provider with the same authority activated at any given
+551         point; so if the end user has two or more different apps that use Facebook SDK, only the
+552         first one will be able to use the provider. To work around this problem, we use the
+553         following placeholder in the authority to identify each host application as if it was
+554         a completely different provider.
+555        -->
+556        <provider
+556-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:29:9-32:40
+557            android:name="com.facebook.internal.FacebookInitProvider"
+557-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:30:13-70
+558            android:authorities="com.odlay.eservices.ServicesApp.FacebookInitProvider"
+558-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:31:13-72
+559            android:exported="false" />
+559-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:32:13-37
+560
+561        <receiver
+561-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:34:9-40:20
+562            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+562-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:35:13-86
+563            android:exported="false" >
+563-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:36:13-37
+564            <intent-filter>
+564-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:37:13-39:29
+565                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+565-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:38:17-95
+565-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:38:25-92
+566            </intent-filter>
+567        </receiver>
+568        <receiver
+568-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:41:9-47:20
+569            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+569-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:42:13-118
+570            android:exported="false" >
+570-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:43:13-37
+571            <intent-filter>
+571-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:44:13-46:29
+572                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+572-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:45:17-103
+572-->[com.facebook.android:facebook-core:16.2.0] /Users/mac/.gradle/caches/transforms-3/7d0e14817cb5d8d57a44750e6036ac42/transformed/jetified-facebook-core-16.2.0/AndroidManifest.xml:45:25-100
+573            </intent-filter>
+574        </receiver>
+575
+576        <provider
+576-->[androidx.emoji2:emoji2:1.3.0] /Users/mac/.gradle/caches/transforms-3/af38a3cb631cd10229622b818180c0b5/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+577            android:name="androidx.startup.InitializationProvider"
+577-->[androidx.emoji2:emoji2:1.3.0] /Users/mac/.gradle/caches/transforms-3/af38a3cb631cd10229622b818180c0b5/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+578            android:authorities="com.odlay.eservices.ServicesApp.androidx-startup"
+578-->[androidx.emoji2:emoji2:1.3.0] /Users/mac/.gradle/caches/transforms-3/af38a3cb631cd10229622b818180c0b5/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+579            android:exported="false" >
+579-->[androidx.emoji2:emoji2:1.3.0] /Users/mac/.gradle/caches/transforms-3/af38a3cb631cd10229622b818180c0b5/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+580            <meta-data
+580-->[androidx.emoji2:emoji2:1.3.0] /Users/mac/.gradle/caches/transforms-3/af38a3cb631cd10229622b818180c0b5/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+581                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+581-->[androidx.emoji2:emoji2:1.3.0] /Users/mac/.gradle/caches/transforms-3/af38a3cb631cd10229622b818180c0b5/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+582                android:value="androidx.startup" />
+582-->[androidx.emoji2:emoji2:1.3.0] /Users/mac/.gradle/caches/transforms-3/af38a3cb631cd10229622b818180c0b5/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+583            <meta-data
+583-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/mac/.gradle/caches/transforms-3/ecb066aba02dff44fb8086046c7f5730/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+584                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+584-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/mac/.gradle/caches/transforms-3/ecb066aba02dff44fb8086046c7f5730/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+585                android:value="androidx.startup" />
+585-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/mac/.gradle/caches/transforms-3/ecb066aba02dff44fb8086046c7f5730/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+586            <meta-data
+586-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+587                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+587-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+588                android:value="androidx.startup" />
+588-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+589        </provider>
+590
+591        <meta-data
+591-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mac/.gradle/caches/transforms-3/d41e9ea6a52906a1a7ea986514f87b29/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+592            android:name="com.google.android.gms.version"
+592-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mac/.gradle/caches/transforms-3/d41e9ea6a52906a1a7ea986514f87b29/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+593            android:value="@integer/google_play_services_version" />
+593-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mac/.gradle/caches/transforms-3/d41e9ea6a52906a1a7ea986514f87b29/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+594
+595        <uses-library
+595-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/be9e527e663b56ea8b00bc7af698b34d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+596            android:name="androidx.window.extensions"
+596-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/be9e527e663b56ea8b00bc7af698b34d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+597            android:required="false" />
+597-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/be9e527e663b56ea8b00bc7af698b34d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+598        <uses-library
+598-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/be9e527e663b56ea8b00bc7af698b34d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+599            android:name="androidx.window.sidecar"
+599-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/be9e527e663b56ea8b00bc7af698b34d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+600            android:required="false" />
+600-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/be9e527e663b56ea8b00bc7af698b34d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+601
+602        <service
+602-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/mac/.gradle/caches/transforms-3/36f3c4b96dad120db144ba9e782ddd96/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+603            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+603-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/mac/.gradle/caches/transforms-3/36f3c4b96dad120db144ba9e782ddd96/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+604            android:exported="false" >
+604-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/mac/.gradle/caches/transforms-3/36f3c4b96dad120db144ba9e782ddd96/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+605            <meta-data
+605-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/mac/.gradle/caches/transforms-3/36f3c4b96dad120db144ba9e782ddd96/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+606                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+606-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/mac/.gradle/caches/transforms-3/36f3c4b96dad120db144ba9e782ddd96/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+607                android:value="cct" />
+607-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/mac/.gradle/caches/transforms-3/36f3c4b96dad120db144ba9e782ddd96/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+608        </service>
+609
+610        <receiver
+610-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+611            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+611-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+612            android:directBootAware="false"
+612-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+613            android:enabled="true"
+613-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+614            android:exported="true"
+614-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+615            android:permission="android.permission.DUMP" >
+615-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+616            <intent-filter>
+616-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+617                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+617-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+617-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+618            </intent-filter>
+619            <intent-filter>
+619-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+620                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+620-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+620-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+621            </intent-filter>
+622            <intent-filter>
+622-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+623                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+623-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+623-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+624            </intent-filter>
+625            <intent-filter>
+625-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+626                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+626-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+626-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/mac/.gradle/caches/transforms-3/7a748d704d8fc6523cc2a556cbd50bd4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+627            </intent-filter>
+628        </receiver>
+629
+630        <service
+630-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/mac/.gradle/caches/transforms-3/bb5a0f5bf9882f3ebfde69abd9c7a521/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+631            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+631-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/mac/.gradle/caches/transforms-3/bb5a0f5bf9882f3ebfde69abd9c7a521/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+632            android:exported="false"
+632-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/mac/.gradle/caches/transforms-3/bb5a0f5bf9882f3ebfde69abd9c7a521/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+633            android:permission="android.permission.BIND_JOB_SERVICE" >
+633-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/mac/.gradle/caches/transforms-3/bb5a0f5bf9882f3ebfde69abd9c7a521/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+634        </service>
+635
+636        <receiver
+636-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/mac/.gradle/caches/transforms-3/bb5a0f5bf9882f3ebfde69abd9c7a521/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+637            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+637-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/mac/.gradle/caches/transforms-3/bb5a0f5bf9882f3ebfde69abd9c7a521/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+638            android:exported="false" />
+638-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/mac/.gradle/caches/transforms-3/bb5a0f5bf9882f3ebfde69abd9c7a521/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+639
+640        <meta-data
+640-->[com.google.android.instantapps:instantapps:1.1.0] /Users/mac/.gradle/caches/transforms-3/2ccfeee550dfb16d3d6ca852aaf187df/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:10:9-12:33
+641            android:name="aia-compat-api-min-version"
+641-->[com.google.android.instantapps:instantapps:1.1.0] /Users/mac/.gradle/caches/transforms-3/2ccfeee550dfb16d3d6ca852aaf187df/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:11:13-54
+642            android:value="1" />
+642-->[com.google.android.instantapps:instantapps:1.1.0] /Users/mac/.gradle/caches/transforms-3/2ccfeee550dfb16d3d6ca852aaf187df/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:12:13-30
+643    </application>
+644
+645</manifest>

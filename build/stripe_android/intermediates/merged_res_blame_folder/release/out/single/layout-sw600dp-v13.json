@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+    }
+]

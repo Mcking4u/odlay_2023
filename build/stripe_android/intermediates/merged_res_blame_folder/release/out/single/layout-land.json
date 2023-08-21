@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/layout-land/mtrl_picker_header_dialog.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/layout-land/mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/layout-land/material_clock_period_toggle_land.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/layout-land/material_clock_period_toggle_land.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/layout-land/material_timepicker.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/layout-land/material_timepicker.xml"
+    }
+]

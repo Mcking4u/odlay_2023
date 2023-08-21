@@ -1,0 +1,88 @@
+{
+  "project_info": {
+    "project_number": "1079145184970",
+    "firebase_url": "https://aricrypta-services-project.firebaseio.com",
+    "project_id": "aricrypta-services-project",
+    "storage_bucket": "aricrypta-services-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079145184970:android:92175a1fc6c727bc753e33",
+        "android_client_info": {
+          "package_name": "com.odlay.eservices.ServicesApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079145184970-1ac6k2a58hr4u7jjhsnbvjadjbdukvvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.odlay.eservices.ServicesApp",
+            "certificate_hash": "1e8b3df836388b685139b17e7197bbf9cd5aca44"
+          }
+        },
+        {
+          "client_id": "1079145184970-1uddun7s7uqr3mm9uouraiahhnfdjqke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.odlay.eservices.ServicesApp",
+            "certificate_hash": "138f2d7008857509f40fdac026f9c7bb41a82342"
+          }
+        },
+        {
+          "client_id": "1079145184970-29fmjm652gnlop20436jr974ukpi3dt8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.odlay.eservices.ServicesApp",
+            "certificate_hash": "b3f8d6ca02a3a81815d8e380270c7e5a99b1b0d2"
+          }
+        },
+        {
+          "client_id": "1079145184970-2pi3e9t4hip9dea1b6nv7hsmgpk5boij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.odlay.eservices.ServicesApp",
+            "certificate_hash": "d2a4b74402f4373b0f9fbd9a2d5474a05e71a2d3"
+          }
+        },
+        {
+          "client_id": "1079145184970-dgmhv4gsis871fduj7iq3h487fd816oi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.odlay.eservices.ServicesApp",
+            "certificate_hash": "c973e93e8e6c65390b6f00bd7cc0ce6e9a39ed9a"
+          }
+        },
+        {
+          "client_id": "1079145184970-p6a1s3oahgua8ai8l6hifast615890sv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.odlay.eservices.ServicesApp",
+            "certificate_hash": "dad1d8014174257c5bf58ea0988e512491c7f6b2"
+          }
+        },
+        {
+          "client_id": "1079145184970-piiv2o864mpv5tpm6dbtdmn4hlgngh5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeAPff0E7PZUcQovmVqCGREpALhDnxG70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079145184970-ihodc96d1ujdbc2ejtk6d7hm5j82nssh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-v31/m3_dynamic_default_color_secondary_text.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-v31/m3_dynamic_default_color_secondary_text.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-v31/m3_dynamic_dark_default_color_secondary_text.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-v31/m3_dynamic_dark_default_color_secondary_text.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-v31/m3_dynamic_primary_text_disable_only.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-v31/m3_dynamic_primary_text_disable_only.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-v31/m3_dynamic_dark_default_color_primary_text.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-v31/m3_dynamic_dark_default_color_primary_text.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-v31/m3_dynamic_dark_highlighted_text.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-v31/m3_dynamic_dark_highlighted_text.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-v31/m3_dynamic_dark_primary_text_disable_only.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-v31/m3_dynamic_dark_primary_text_disable_only.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-v31/m3_dynamic_default_color_primary_text.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-v31/m3_dynamic_default_color_primary_text.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-v31/m3_dynamic_highlighted_text.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-v31/m3_dynamic_highlighted_text.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-v31/m3_dynamic_dark_hint_foreground.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-v31/m3_dynamic_dark_hint_foreground.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-v31/m3_dynamic_hint_foreground.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-v31/m3_dynamic_hint_foreground.xml"
+    }
+]

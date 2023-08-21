@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>830482925031-ss4odb9let7d0f0vj62ipdfaqg9nd0g9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.830482925031-ss4odb9let7d0f0vj62ipdfaqg9nd0g9</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>830482925031-8fdsqbnkdj0j4dsief30iardv282gnrg.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCmAnjgI1I9zsh6cdDj18iRg4fQJ_hz2WI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>830482925031</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.odlay.services</string>
+	<key>PROJECT_ID</key>
+	<string>odlay-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>odlay-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:830482925031:ios:3024ebe1bdd0559286e942</string>
+	<key>DATABASE_URL</key>
+	<string>https://odlay-dev.firebaseio.com</string>
+</dict>
+</plist>

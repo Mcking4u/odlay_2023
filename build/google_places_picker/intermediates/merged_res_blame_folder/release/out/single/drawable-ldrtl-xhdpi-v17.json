@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/google_places_picker/intermediates/merged_res/release/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/mac/.gradle/caches/transforms-3/fdcaacd4add3d9d52c74c196d10260a2/transformed/appcompat-1.2.0/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/google_places_picker/intermediates/merged_res/release/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/mac/.gradle/caches/transforms-3/fdcaacd4add3d9d52c74c196d10260a2/transformed/appcompat-1.2.0/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/google_places_picker/intermediates/merged_res/release/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/mac/.gradle/caches/transforms-3/fdcaacd4add3d9d52c74c196d10260a2/transformed/appcompat-1.2.0/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/google_places_picker/intermediates/merged_res/release/drawable-ldrtl-xhdpi-v17/quantum_ic_arrow_back_grey600_24.png",
+        "source": "/Users/mac/.gradle/caches/transforms-3/94d600ae1289ac0d94bafb458807487c/transformed/jetified-places-2.4.0/res/drawable-ldrtl-xhdpi-v17/quantum_ic_arrow_back_grey600_24.png"
+    }
+]

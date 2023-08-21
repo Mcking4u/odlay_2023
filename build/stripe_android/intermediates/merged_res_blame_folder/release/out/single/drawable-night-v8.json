@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-night-v8/stripe_3ds2_ic_arrow.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/53dcc88ea1d27daefd850347dfe1f580/transformed/jetified-stripe-3ds2-android-6.1.7/res/drawable-night-v8/stripe_3ds2_ic_arrow.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-night-v8/stripe_ic_paymentsheet_pm_revolut_pay.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/754330262d08363c820a2d6b976d8129/transformed/jetified-payments-ui-core-20.25.8/res/drawable-night-v8/stripe_ic_paymentsheet_pm_revolut_pay.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-night-v8/stripe_ic_cvc.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/099ba7c3a3b789857fd3a99d79a81de4/transformed/jetified-payments-model-20.25.8/res/drawable-night-v8/stripe_ic_cvc.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-night-v8/stripe_ic_paymentsheet_pm_mobile_pay.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/754330262d08363c820a2d6b976d8129/transformed/jetified-payments-ui-core-20.25.8/res/drawable-night-v8/stripe_ic_paymentsheet_pm_mobile_pay.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-night-v8/stripe_ic_unknown.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/099ba7c3a3b789857fd3a99d79a81de4/transformed/jetified-payments-model-20.25.8/res/drawable-night-v8/stripe_ic_unknown.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-night-v8/stripe_ic_affirm_logo.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/754330262d08363c820a2d6b976d8129/transformed/jetified-payments-ui-core-20.25.8/res/drawable-night-v8/stripe_ic_affirm_logo.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-night-v8/stripe_ic_cvc_amex.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/099ba7c3a3b789857fd3a99d79a81de4/transformed/jetified-payments-model-20.25.8/res/drawable-night-v8/stripe_ic_cvc_amex.xml"
+    }
+]

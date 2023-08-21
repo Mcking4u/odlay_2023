@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-night-v8/material_timepicker_button_stroke.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-night-v8/material_timepicker_button_stroke.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-night-v8/material_timepicker_modebutton_tint.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-night-v8/material_timepicker_modebutton_tint.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/color-night-v8/material_timepicker_clockface.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/color-night-v8/material_timepicker_clockface.xml"
+    }
+]

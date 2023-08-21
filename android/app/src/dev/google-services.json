@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "830482925031",
+    "firebase_url": "https://odlay-dev.firebaseio.com",
+    "project_id": "odlay-dev",
+    "storage_bucket": "odlay-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830482925031:android:3e8a19bb0bf96eb386e942",
+        "android_client_info": {
+          "package_name": "com.odlay.eservices.ServicesApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830482925031-8fdsqbnkdj0j4dsief30iardv282gnrg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.odlay.eservices.ServicesApp",
+            "certificate_hash": "14033b519553a4342eda89f54989399c814a20ff"
+          }
+        },
+        {
+          "client_id": "830482925031-snnekmgl9ctf0uklq82hivr1aispkvu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.odlay.eservices.ServicesApp",
+            "certificate_hash": "d661660d848fa442fbcdab5b27a5c2d75dca6ac8"
+          }
+        },
+        {
+          "client_id": "830482925031-5ulsliahfanjkg4pfrqip72akvl5j2mo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKE36HchBbnecBbW866vN_8j8xT22guX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830482925031-5ulsliahfanjkg4pfrqip72akvl5j2mo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

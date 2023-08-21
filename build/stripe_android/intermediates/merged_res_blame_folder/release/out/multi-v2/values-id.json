@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/6566b99caf3d918cd6a4803e30957412/transformed/jetified-play-services-wallet-19.2.0-beta01/res/values-id/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "77",
+                        "endOffsets": "128"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/6566b99caf3d918cd6a4803e30957412/transformed/jetified-play-services-wallet-19.2.0-beta01/res/values-id/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "77",
+                        "endOffsets": "128"
+                    }
+                }
+            ]
+        }
+    ]
+}

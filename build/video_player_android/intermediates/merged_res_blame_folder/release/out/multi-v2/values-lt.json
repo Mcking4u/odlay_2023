@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mac/Documents/odlayService237/odlay_services/build/video_player_android/intermediates/merged_res/release/values-lt/values-lt.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/2faabd27d2a8efc962cba77999755767/transformed/core-1.7.0/res/values-lt/values-lt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "757",
+                        "endColumns": "100",
+                        "endOffsets": "853"
+                    }
+                },
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/09d80b0a10f4390eab3264b7cb1e5d18/transformed/jetified-exoplayer-core-2.18.7/res/values-lt/values-lt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,136,200,267,335,416,490,587,682",
+                        "endColumns": "80,63,66,67,80,73,96,94,74",
+                        "endOffsets": "131,195,262,330,411,485,582,677,752"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mac/Documents/odlayService237/odlay_services/build/video_player_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-lt/values-lt.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/2faabd27d2a8efc962cba77999755767/transformed/core-1.7.0/res/values-lt/values-lt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "757",
+                        "endColumns": "100",
+                        "endOffsets": "853"
+                    }
+                },
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/09d80b0a10f4390eab3264b7cb1e5d18/transformed/jetified-exoplayer-core-2.18.7/res/values-lt/values-lt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,136,200,267,335,416,490,587,682",
+                        "endColumns": "80,63,66,67,80,73,96,94,74",
+                        "endOffsets": "131,195,262,330,411,485,582,677,752"
+                    }
+                }
+            ]
+        }
+    ]
+}

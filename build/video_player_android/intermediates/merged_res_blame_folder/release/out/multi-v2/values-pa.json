@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mac/Documents/odlayService237/odlay_services/build/video_player_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-pa/values-pa.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/09d80b0a10f4390eab3264b7cb1e5d18/transformed/jetified-exoplayer-core-2.18.7/res/values-pa/values-pa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,126,191,268,334,409,475,574,670",
+                        "endColumns": "70,64,76,65,74,65,98,95,84",
+                        "endOffsets": "121,186,263,329,404,470,569,665,750"
+                    }
+                },
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/2faabd27d2a8efc962cba77999755767/transformed/core-1.7.0/res/values-pa/values-pa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "755",
+                        "endColumns": "100",
+                        "endOffsets": "851"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mac/Documents/odlayService237/odlay_services/build/video_player_android/intermediates/merged_res/release/values-pa/values-pa.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/09d80b0a10f4390eab3264b7cb1e5d18/transformed/jetified-exoplayer-core-2.18.7/res/values-pa/values-pa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,126,191,268,334,409,475,574,670",
+                        "endColumns": "70,64,76,65,74,65,98,95,84",
+                        "endOffsets": "121,186,263,329,404,470,569,665,750"
+                    }
+                },
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/2faabd27d2a8efc962cba77999755767/transformed/core-1.7.0/res/values-pa/values-pa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "755",
+                        "endColumns": "100",
+                        "endOffsets": "851"
+                    }
+                }
+            ]
+        }
+    ]
+}

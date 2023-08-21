@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mac/Documents/odlayService237/odlay_services/build/path_provider_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-uk/values-uk.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/6f144bde476e893dfa7f4541c343be30/transformed/core-1.6.0/res/values-uk/values-uk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mac/Documents/odlayService237/odlay_services/build/path_provider_android/intermediates/merged_res/release/values-uk/values-uk.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/6f144bde476e893dfa7f4541c343be30/transformed/core-1.6.0/res/values-uk/values-uk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

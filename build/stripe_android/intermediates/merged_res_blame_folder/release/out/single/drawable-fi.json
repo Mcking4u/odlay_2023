@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-fi/pay_with_googlepay_button_content.xml",
+        "source": "/Users/mac/.pub-cache/hosted/pub.dev/stripe_android-9.3.0/android/src/main/res/drawable-fi/pay_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-fi/subscribe_with_googlepay_button_content.xml",
+        "source": "/Users/mac/.pub-cache/hosted/pub.dev/stripe_android-9.3.0/android/src/main/res/drawable-fi/subscribe_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-fi/order_with_googlepay_button_content.xml",
+        "source": "/Users/mac/.pub-cache/hosted/pub.dev/stripe_android-9.3.0/android/src/main/res/drawable-fi/order_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-fi/checkout_with_googlepay_button_content.xml",
+        "source": "/Users/mac/.pub-cache/hosted/pub.dev/stripe_android-9.3.0/android/src/main/res/drawable-fi/checkout_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-fi/donate_with_googlepay_button_content.xml",
+        "source": "/Users/mac/.pub-cache/hosted/pub.dev/stripe_android-9.3.0/android/src/main/res/drawable-fi/donate_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-fi/buy_with_googlepay_button_content.xml",
+        "source": "/Users/mac/.pub-cache/hosted/pub.dev/stripe_android-9.3.0/android/src/main/res/drawable-fi/buy_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/drawable-fi/book_with_googlepay_button_content.xml",
+        "source": "/Users/mac/.pub-cache/hosted/pub.dev/stripe_android-9.3.0/android/src/main/res/drawable-fi/book_with_googlepay_button_content.xml"
+    }
+]

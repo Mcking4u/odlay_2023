@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/anim-v21/mtrl_bottom_sheet_slide_in.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/anim-v21/mtrl_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/anim-v21/fragment_fast_out_extra_slow_in.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/3af0e5fee21bad4cb3646f14dfaf4d3a/transformed/fragment-1.5.5/res/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/anim-v21/m3_bottom_sheet_slide_in.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/anim-v21/m3_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/anim-v21/mtrl_bottom_sheet_slide_out.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/anim-v21/mtrl_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/anim-v21/m3_side_sheet_slide_in.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/anim-v21/m3_side_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/anim-v21/m3_bottom_sheet_slide_out.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/anim-v21/m3_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/stripe_android/intermediates/merged_res/release/anim-v21/m3_side_sheet_slide_out.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/55c0a28ba52361a6a80102b3c3163429/transformed/material-1.8.0/res/anim-v21/m3_side_sheet_slide_out.xml"
+    }
+]

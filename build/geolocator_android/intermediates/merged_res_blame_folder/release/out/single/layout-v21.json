@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/geolocator_android/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1486752855e5c23d3303a6d1a962e70c/transformed/core-1.9.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/geolocator_android/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1486752855e5c23d3303a6d1a962e70c/transformed/core-1.9.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/geolocator_android/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1486752855e5c23d3303a6d1a962e70c/transformed/core-1.9.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/odlayService237/odlay_services/build/geolocator_android/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/1486752855e5c23d3303a6d1a962e70c/transformed/core-1.9.0/res/layout-v21/notification_action.xml"
+    }
+]
